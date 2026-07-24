@@ -1,0 +1,82 @@
+
+\documentclass[12pt, a4paper]{article}
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{\textbf{Evaluating and Improving the Performance and User Experience of Progressive Web Apps (PWAs) to Compete with Native Apps in Low-Connectivity Environments}}
+\author{Banan Almaqrami}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+With the rapid evolution of web technology, traditional web applications face major challenges such as total reliance on internet connectivity and inferior performance compared to native apps. Progressive Web Apps (PWAs) have emerged as an innovative solution combining the flexibility of the web with the power of native apps through technologies like Service Workers and Caching, enabling fast and reliable user experiences even during network disruptions.
+
+\section{Research Problem}
+The research problem addresses the extent to which PWAs can provide a user experience that equals or closely approaches native applications, especially when handling big data or operating in environments with weak internet connectivity. These applications often face technical challenges related to cache memory management, background synchronization, and compatibility across various devices and browsers.
+
+\section{Objectives and Significance}
+\subsection{Research Objectives:}
+\begin{itemize}
+    \item Analyze the technical architecture of PWAs and compare them with native applications.
+    \item Develop a practical prototype of a PWA that supports offline mode.
+    \item Measure and improve key performance metrics such as load time and response time using standard measurement tools.
+    \item Evaluate user experience (UX) and user satisfaction regarding performance compared to traditional applications.
+\end{itemize}
+
+\subsection{Research Significance:}
+\begin{itemize}
+    \item Reducing development costs by building a single cross-platform version instead of separate native apps for each operating system.
+    \item Enhancing accessibility and response speed for users in regions with limited internet connectivity.
+\end{itemize}
+
+\section{Research Questions}
+\begin{enumerate}
+    \item To what extent can PWAs simulate native app performance during internet outages?
+    \item What are the most efficient caching strategies to minimize load time?
+    \item How do push notifications and background execution features affect user engagement with the application?
+\end{enumerate}
+
+\section{Methodology and Proposed Tools}
+The research will follow an \textbf{Experimental and Developmental Approach}, including:
+\begin{itemize}
+    \item \textbf{Development Environment:} Using modern frontend frameworks (such as React.js or Vue.js) to build the proposed application.
+    \item \textbf{Core PWA Technologies:} Activating the Web App Manifest and integrating Service Workers to handle network requests and support offline mode.
+    \item \textbf{Measurement and Testing Tools:} Using \textbf{Lighthouse} to measure performance and accessibility, alongside UX testing.
+\end{itemize}
+
+\section{Literature Review}
+\begin{itemize}
+    \item Reviewing recent research comparing the performance of web apps and native apps.
+    \item Focusing on literature discussing the efficiency of Service Workers and advanced caching mechanisms (Cache API / IndexedDB).
+    \item \textbf{Research Gap:} Measuring performance in scenarios with very weak or frequently interrupted internet connections.
+\end{itemize}
+
+\section{Timeline}
+\begin{itemize}
+    \item \textbf{Month 1:} Planning, analysis, and literature review.
+    \item \textbf{Month 2:} Development, prototype building, and Service Workers integration.
+    \item \textbf{Month 3:} Testing and measurement using Lighthouse and UX evaluation.
+    \item \textbf{Month 4:} Data analysis, drafting the final report, and documenting results.
+\end{itemize}
+
+\section{Expected Outcomes}
+\begin{itemize}
+    \item Delivering a PWA prototype that achieves high performance matching native apps in response speed.
+    \item Significant reduction in recurrent load times through effective caching strategies.
+    \item Providing a reference guide for developers on efficiently employing PWAs in limited-internet environments.
+\end{itemize}
+
+\section{Preliminary References}
+\begin{thebibliography}{99}
+    \bibitem{mdn} MDN Web Docs, \textit{Progressive Web Apps (PWAs) Documentation}, Mozilla Foundation.
+    \bibitem{w3c} W3C, \textit{Progressive Web App Specifications and Standards}.
+    \bibitem{google} Google Developers, \textit{PWA Checklist and Best Practices}.
+\end{thebibliography}
+
+\end{document}
